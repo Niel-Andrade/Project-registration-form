@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,900;1,200;1,300;1,400;1,900&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Desafio 2 - HTML and CSS</title>
+</head>
+
+<body>
+    <div>
+        <h3>Cadastro</h3>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label class="nameedit" for="name">Nome</label>
+            <input placeholder="Digite seu nome" class="nameedit1" type="text" name="name" id="name" required>
+
+            <label class="emailedit" for="email">Email</label>
+            <input placeholder="Digite seu email" class="emailedit1" type="email" name="email" id="email" required>
+
+            <label class="age" for="idade">Idade</label>
+            <input class="age1" type="number" name="idade" id="idade" required min="12" style="width: 35px;">
+
+
+            <label class="birthday" for="data-de-nascimento">Data de Nascimento</label>
+            <input class="birthday1" type="date" name="data-de-nascimento" id="data-de-nascimento" required>
+
+            <label>
+                <label class="account"> Onde Você Possui Conta ?</label>
+
+            <label class="checkboxs">
+                    <input type="checkbox" name="instagram">
+                    Instagram
+                </label>
+
+            <label class="checkboxs">
+                    <input type="checkbox" name="facebook">
+                    Facebook
+                </label>
+
+            <label class="checkboxs">
+                    <input type="checkbox" name="youtube">
+                    Youtube
+                </label>
+            </label>
+
+            <label class="radios">
+                <label class="sex">Sexo </label>
+            <label class="radios">
+                    <input class="radiosbox" type="radio" name="genero" value="masculino">
+                </label class="radios">Masculino
+
+                <label class="radios">
+                    <input class="radiosbox" type="radio" name="genero" value="feminino">Feminino
+                </label>
+            </label>
+
+            <label class="eyes">Cor dos Olhos
+                <input type="color" name="olhos" id="olhos">
+            </label>
+
+            <label> Biografia
+                <textarea name="bio" required></textarea>
+            </label>
+
+            <label>Foto de Perfil
+                <input class="profile-picture" type="file" name="perfil" accept="images/*" required>
+            </label>
+
+            <label>Telefone
+                <input class="telephone" type="tel" name="telefone" required>
+            </label>
+
+            <label>Link Do Perfil do Facebook
+                <input class="url" type="url" name="url" required>
+            </label>
+
+            <label>Senha
+                <input class="password" type="password" name="senha" min="6" max="8" required>
+            </label>
+
+            <button class="editbutton" type="reset">Limpar</button>
+            <button class="editbutton" type="submit">Enviar Dados</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

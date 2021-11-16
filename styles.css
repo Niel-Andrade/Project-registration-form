@@ -1,0 +1,93 @@
+label,
+textarea,
+.url,
+.password,
+.telephone,
+.profile-picture {
+    padding-left: 8px;
+    display: block;
+}
+
+.nameedit1,
+.emailedit1,
+.age1,
+.editbutton,
+.birthday1 {
+    margin-left: 8px;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 6px;
+    border-color: #0401b3;
+    border-radius: 15px;
+}
+
+.eyes {
+    margin: 15px 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-style: groove;
+    border-color: #030169;
+    border-radius: 8px;
+    border-width: 3px;
+}
+
+div {
+    background-image: linear-gradient(#92fd94, #00eb04);
+}
+
+h3 {
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 0 3px #FF0000, 2px 0 5px #1100ff;
+    border-style: double;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: #030169;
+}
+
+.account,
+.sex {
+    text-align: center;
+}
+
+.radiosbox {
+    margin-left: 40px;
+}
+
+.radios {
+    display: inline;
+    margin: 1px;
+}
+
+.checkboxs {
+    display: inline;
+}
+
+.editbutton:hover {
+    background-color: #68ff22;
+    cursor: pointer;
+    width: 100px;
+    height: 38px;
+    color: #0000FF;
+    border-color: #8B0000;
+    font-size: 15px;
+}
+
+label {
+    font-size: 17px;
+    color: black;
+}
